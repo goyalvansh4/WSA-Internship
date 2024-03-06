@@ -189,7 +189,7 @@ const FilterModal = ({ selectedFilters, onFilterChange, onClose }) => {
              <div className="amenities-checkboxes">
               {aminitiesOptions.map((option) => (
                 <div key={option.value} className="amenity-checkbox">
-                   {console.log(aminities.includes(option.value))}
+                   {/* {console.log(aminities.includes(option.value))} */}
                   <input
                     type="checkbox"
                     value={option.value}
